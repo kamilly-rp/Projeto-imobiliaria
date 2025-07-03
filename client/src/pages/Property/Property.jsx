@@ -46,7 +46,7 @@ const Property = () => {
     return (
       <div className="wrapper">
         <div className="flexCenter paddings">
-          <span>Error while fetching the property details</span>
+          <span>Erro ao carregar imóveis</span>
         </div>
       </div>
     );

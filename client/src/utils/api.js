@@ -3,7 +3,7 @@ import dayjs from 'dayjs';
 import {toast} from 'react-toastify';
 
 export const api = axios.create({
-     baseURL: `${process.env.REACT_APP_API_URL}/api`,
+     baseURL:"http://localhost:8000/api",
 });
 
 
@@ -20,7 +20,7 @@ export const getAllProperties = async() => {
         }
         return response.data
     }catch (error){
-        toast.error("Something went wrong");
+        toast.error("Erro ao carregar dados");
         throw error 
     }
 };

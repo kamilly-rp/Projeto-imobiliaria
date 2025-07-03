@@ -1,8 +1,5 @@
 [
-  {
-  "email": "admin@gsa.com",
-  "name": "Admin DEV GSA"
-},
+ 
   {
     "_id": { "$oid": "6853239f72e8664673b221ef" },
     "title": "Sobrado em Itaquera",
